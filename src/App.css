@@ -1,38 +1,184 @@
-.App {
+/* About Section */
+
+.about-container {
+  height: 85vh;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+
+  background-color: #F5EEE6;
+}
+
+.about-writing {
+  padding: 0;
+  margin: 0;
+}
+
+.about-writing p {
+  font-family: "Quicksand", sans-serif;
+}
+
+/* Skills Section */
+
+.skillset-heading {
+  margin-bottom: 60px;
+}
+
+.skillset-heading p {
+  text-align: center;
+
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 5vh;
+}
+
+.skills-icons-1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  margin-bottom: 80px;
+}
+
+.skills-icons-2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+  margin-bottom: 70px;
+}
+
+/* My Work Section */
+
+.my-work-container {
+  background-color: #FFF8E3;
+
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.my-work-heading p {
+  text-align: center;
+
+  padding-top: 20px;
+
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 5vh;
+}
+
+.my-photographs-row-1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  flex-wrap: wrap;
+}
+
+.my-photographs-row-1 img {
+  height: 40vh;
+  width: auto;
+  
+  margin: 7px;
+}
+
+.my-photographs-row-2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+  flex-wrap: wrap;
+}
+
+.my-photographs-row-2 img {
+  height: 40vh;
+  width: auto;
+  
+  margin: 7px;
+}
+
+/* Projects Section */
+
+.my-projects-container {
+  background-color: #F3D7CA;
+
+  margin-top: 0;
+
+  padding-bottom: 20px;
+}
+
+.my-projects-heading p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 5vh;
+
+  margin-top: 0;
+  margin-bottom: 0;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.my-projects-carousel {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Contact Me */
+
+.contact-me-container {
+  background-color: #E6A4B4;
+}
+
+.contact-me-container p {
+  margin: 0;
+
+  text-align: center;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 5vh;
+}
+
+.contact-me-details {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  flex-wrap: wrap;
+}
+
+.contact-me-writing {
+  width: 50%;
+
+  padding-bottom: 20px;
+}
+
+.contact-input-fields {
+  padding-bottom: 20px;
+}
+
+/* Footer Section */
+
+.footer-container{
+  height: 80px;
+
+  background-color: #191919;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container p {
+  margin: 0;
+
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
