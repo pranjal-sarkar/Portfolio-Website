@@ -2,7 +2,7 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 
-export default function EmailField() {
+export default function EmailField({ setEmail }) {
   return (
     <Box
       component="form"
@@ -12,7 +12,9 @@ export default function EmailField() {
       noValidate
       autoComplete="off"
     >
-      <TextField id="outlined-basic" label="Enter Your Email" variant="outlined" />
+      <TextField id="outlined-basic" label="Enter Your Email" variant="outlined" onChange={(event) => {
+        setEmail(event.target.value);
+      }} />
     </Box>
   );
 }

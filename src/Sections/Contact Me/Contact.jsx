@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 // importing components
 import EmailField from '../../Components/EmailField.tsx';
@@ -6,6 +6,10 @@ import EmailMessage from '../../Components/EmailMessage.tsx';
 import EmailButton from '../../Components/EmailButton.tsx';
 
 const Contact = () => {
+
+  const [email, setEmail] = useState();
+  const [message, setMessage] = useState();
+
   return (
     <>
       <div className="contact-me-container">
@@ -15,13 +19,13 @@ const Contact = () => {
 
         <div className="contact-me-details">
           <div className="contact-me-writing">
-            I am always open to work so feel free to contact me. Happy to help!
+            DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL
           </div>
 
-          <div className="contact-input-fields">
-            <EmailField />
-            <EmailMessage />
-            <EmailButton />
+          <div className="contact-social-media-handles">
+            <EmailField setEmail />
+            <EmailMessage setMessage />
+            <EmailButton email message />
           </div>
         </div>
       </div>

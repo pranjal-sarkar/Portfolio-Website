@@ -1,3 +1,38 @@
+/* Navbar - My Name */
+
+.my-name-container {
+  height: 10vh;
+
+  background-color: white;
+}
+
+.my-name {
+  height: 100%;
+}
+
+.my-name p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 0;
+  margin-bottom: 0;
+
+  height: 100%;
+
+  /* font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal; */
+
+  font-family: "Alex Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+  font-size: 200%;
+
+  text-align: center;
+}
+
 /* About Section */
 
 .about-container {
@@ -100,7 +135,8 @@
 /* Projects Section */
 
 .my-projects-container {
-  background-color: #F3D7CA;
+  /* background-color: #F3D7CA; */
+  background-color: white;
 
   margin-top: 0;
 
@@ -132,7 +168,11 @@
 /* Contact Me */
 
 .contact-me-container {
-  background-color: #E6A4B4;
+  /* background-color: #E6A4B4; */
+  /* background-color: #F3D7CA; */
+  /* background-color: #EADFB4; */
+  /* background-color: #B5C0D0; */
+  background-color: #F5E8DD;
 }
 
 .contact-me-container p {
@@ -161,7 +201,7 @@
   padding-bottom: 20px;
 }
 
-.contact-input-fields {
+.contact-social-media-handles {
   padding-bottom: 20px;
 }
 
